@@ -1,0 +1,5 @@
+sampleresp.json
+sampleresp2.json
+__pycache__/*
+*.pyc
+cookies.json
