@@ -49,9 +49,9 @@ def getOrders(cookies):
     
     average_spent = spent//num_of_orders
     print()
-    print(f"[green]Total money spent on swiggy.com : [bold]{spent:,}[/bold][/green]")
-    print(f"[green]Total number of orders placed : [bold]{num_of_orders:,}[/bold][/green]")
-    print(f"[bold][green]Average money spent on each order : [bold]{average_spent:,}[/bold][/green]")
+    print(f"[green]Total money spent on swiggy.com : [bold]INR {spent:,}[/bold][/green]")
+    print(f"[green]Total number of orders placed : [bold]INR {num_of_orders:,}[/bold][/green]")
+    print(f"[green]Average money spent on each order : [bold]INR {average_spent:,}[/bold][/green]")
 
 
 
