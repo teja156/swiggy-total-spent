@@ -46,7 +46,7 @@ def getOrders(cookies):
             break
 
         current_page += 1
-
+    spent = int(spent)
     average_spent = spent//num_of_orders
     print()
     print(
