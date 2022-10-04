@@ -58,14 +58,14 @@ def getOrders(cookies):
 
 
 def cookiesToDict():
-    print("[green][+][/green] Getting cookies from [u]cookies.json[/u]")
+    print("[green][+][/green] Getting cookies from [u]swiggy.json[/u]")
     data = None
     cookies = {}
     try:
-        with open("cookies.json","r") as f:
+        with open("swiggy.json","r") as f:
             data = json.load(f)
     except Exception as e:
-        print("[red][-] [u]cookies.json[/u] not found in the path[/red]")
+        print("[red][-] [u]swiggy.json[/u] not found in the path[/red]")
         print(str(e))
         return None
     
