@@ -2,6 +2,7 @@ import requests
 import json
 import sys
 from rich import print
+print("hello")
 
 HEADERS = {
     'Host':'www.swiggy.com',
